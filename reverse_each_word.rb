@@ -10,7 +10,7 @@ end
 reverse_each_word_with_collect(string)
   convert_array = string.split(" ")
    = []
-  starting_array.collect do|string|
+  convert_array.collect do|string|
     array << string.reverse
   end 
   array.join(" ")
