@@ -9,9 +9,9 @@ end
 
 reverse_each_word_with_collect(string)
   convert_array = string.split(" ")
-   = []
+  test_array = []
   convert_array.collect do|string|
-    array << string.reverse
+    test_array << string.reverse
   end 
-  array.join(" ")
+  test_array.join(" ")
 end 
