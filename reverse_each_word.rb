@@ -8,11 +8,6 @@ def reverse_each_word_with_each(string)
 end
 
 reverse_each_word(string)
-  convert_array = string.split(" ")
-  test_array = []
-  convert_array.collect do|string|
-    test_array << string.reverse
-  end
-  test_array.join(" ")
+  
 end 
 
