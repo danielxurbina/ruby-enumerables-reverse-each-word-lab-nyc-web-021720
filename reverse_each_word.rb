@@ -1,4 +1,4 @@
-def reverse_each_word(string)
+def reverse_each_word(sentence)
   starting_array = string.split(" ")
   array = []
   starting_array.each do|string|
